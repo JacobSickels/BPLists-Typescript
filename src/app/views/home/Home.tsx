@@ -4,13 +4,11 @@ import { Button, Grid, Row, Col } from 'react-bootstrap';
 
 export const Home = (props: any) => (
     <Grid>
-        <Row className='show-grid'>
+        <Row className="show-grid">
             <Col md={8}>
-                <Button>
-                    Testing
-                </Button>
+                <Button>Testing</Button>
                 <Lists />
             </Col>
         </Row>
     </Grid>
-)
+);

@@ -9,15 +9,11 @@ import AppRouter from './app/common/router/AppRouter';
 const store = configureStore();
 
 const app = (
-  <Provider store={store}>
-    <AppRouter />
-  </Provider>
-)
-
-ReactDOM.render(
-  app,
-  document.getElementById('root') as HTMLElement
+    <Provider store={store}>
+        <AppRouter />
+    </Provider>
 );
 
-registerServiceWorker();
+ReactDOM.render(app, document.getElementById('root') as HTMLElement);
 
+registerServiceWorker();

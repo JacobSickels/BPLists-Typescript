@@ -7,7 +7,7 @@ export interface MaterialList {
     id: string;
     created: string;
     creator: string;
-    list: Material[]
+    list: Material[];
 }
 
 export interface Material {
@@ -24,5 +24,3 @@ export interface Material {
 export interface Fitting {
     type: string;
 }
-
-

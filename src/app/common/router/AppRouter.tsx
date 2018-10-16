@@ -10,9 +10,7 @@ const AppRouter = () => (
     <Router history={history}>
         <div>
             <Switch>
-                <Route 
-                    component={Home}
-                />
+                <Route component={Home} />
             </Switch>
         </div>
     </Router>
